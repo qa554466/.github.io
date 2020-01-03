@@ -1,0 +1,579 @@
+/*  初始化化 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  安全宽度  */
+.safe_width{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+/*   串的头部和身体   */
+.v_middle_head{
+    width: 1px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.v_middle_body{
+    display: inline-block;
+    vertical-align: middle;
+}
+/*----  网页背景  ---*/
+#bg{
+    width: 100%;
+    height: 978px;
+    background-image: url("../images/xuexi.jpg");
+    background-position: center;
+}
+/*--------------------------nav------------------------------*/
+
+#nav{
+    width: 100%;
+    height:72px ;
+}
+#nav-1{
+    margin-left: 189px;
+}
+#nav-1-1{
+    padding: 25px 25px 20px;
+    float: left;
+}
+.nav-1-2{
+    padding: 25px 21px 20px;
+    float: left;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+#nav-learn{
+    background-color:#104974 ;
+}
+#nav-1-3{
+    padding: 25px 25px 20px;
+    float: left;
+}
+#nav-1 a{
+    font-size: 21px;
+    font-family: "微软雅黑" , serif;
+    color: white;
+    text-decoration: none;
+}
+#nav-1 p:hover{
+    background-color:#104974 ;
+}
+#nav-2{
+    float: right;
+    padding-top: 23px;
+}
+#input1{
+    width:172px;
+    height: 30px;
+    border: 0;
+}
+#nav-2-1{
+    width: 210px;
+    height: 30px;
+    background-color:#FFFFFF ;
+    display: inline-block;
+}
+#nav-2-2{
+    display: inline-block;
+}
+#nav-2-2>a{
+    color: white;
+    font-family: "微软雅黑" , serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+#login{
+    margin-right: 14px;
+    margin-left: 34px;
+}
+#zhuce{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+/*--------------------------content------------------------------*/
+#content{
+    width: 100%;
+    height: 705px;
+}
+.hidden{
+    overflow: hidden;
+}
+#purchased{
+   margin-top: 27px;
+    border: 1px solid #878787;
+    width: 998px;
+    height: 648px;
+}
+/*---------------user---------------*/
+#user{
+    width: 264px;
+    height: 648px;
+    float: left;
+    margin-right: 13px;
+}
+#user-message{
+    width: 264px;
+    height: 136px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: #eeeeee;
+}
+#user1{
+    padding: 18px 13px 24px;
+    width: 94px;
+    height: 94px;
+    float: left;
+}
+#user2{
+    width: 144px;
+    height: 136px;
+    float: left;
+}
+#user-name{
+    font-family: "微软雅黑" , serif;
+    font-size: 18px;
+    line-height: 48px;
+    height: 48px;
+}
+.user2-1{
+    font-size: 14px;
+    font-family: "微软雅黑" , serif;
+    line-height: 24px;
+    height: 24px;
+}
+.user2-2{
+    font-size: 12px;
+    font-family: "微软雅黑" , serif;
+}
+#gold{
+    width: 264px;
+    height: 147px;
+    border-top: 1px solid white;
+    background-color: #eeeeee;
+    margin-bottom: 17px;
+}
+.gold1{
+    padding: 11px  18px;
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+}
+.gold2{
+    padding: 0 0 14px 41px;
+    font-family: "微软雅黑" , serif;
+    font-size: 12px;
+    ;
+}
+.gold-value{
+    color: red;
+}
+
+#myCourse{
+    width: 264px;
+    height: 57px;
+    border-top: 1px solid #13598c;
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+#mycourse1{
+    height: 57px;
+    line-height: 57px;
+    padding-left: 25px;
+}
+.course-zt{
+    font-family: "微软雅黑" , serif;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+#indent{
+    width: 264px;
+    height: 50px;
+    background-color: #eeeeee;
+    border-top: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+#indent1{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 25px;
+    background-size:100% 100%;
+    background-image: url("../images/ding.jpg");
+}
+#indent2{
+    margin-left: 12px;
+}
+#myNote{
+    width: 264px;
+    height: 53px;
+    border-top: 1px solid white;
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+#note{
+    height: 53px;
+    line-height: 53px;
+    padding-left: 25px;
+}
+#note1{
+    margin-left: 11px;
+}
+#record{
+    width: 264px;
+    height: 52px;
+    border-top: 1px solid white;
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+#record1{
+    height: 52px;
+    line-height: 52px;
+    padding-left: 25px;
+}
+#record2{
+    margin-left: 14px;
+}
+/*#condition div:hover{
+    background-size:100% 100%;
+    background-image: url("../images/ding.jpg");
+    color: white;
+}*/
+#blank{
+    width: 264px;
+    height: 128px;
+    border-top: 1px solid white;
+    background-color: #eeeeee;
+}
+/*-------------content-course-----------------*/
+#content-course{
+    display: none;
+    width: 705px;
+    height: 621px;
+    padding-top: 27px;
+    background-color: white;
+    float: left;
+}
+#course{
+    float: left;
+}
+#course1{
+    display: block;
+}
+.course-frame{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 703px;
+    height: 561px;
+    border: 1px solid #878787;
+    margin-top: 39px;
+    z-index: 3;
+}
+.course1-1{
+    height: 477px;
+    width: 100%;
+}
+.course1-1-1{
+    width: 155px;
+    height: 129px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 15px;
+    margin-top: 28px;
+}
+.course1-tou{
+    background-image: url("../images/xue-tou.png");
+    width: 140px;
+    height: 81px;
+    margin-top: 9px;
+    margin-left: 8px;
+}
+.course1-tiao{
+    width: 140px;
+    background-image: url("../images/tou-tiao.png");
+    height: 5px;
+    margin-left: 8px;
+}
+.course1-p{
+    margin-left: 8px;
+    font-family: "微软雅黑" , serif;
+    font-size: 12px;
+    line-height: 33px;
+    height: 33px;
+}
+.graded{
+    float: left;
+}
+.attention{
+    float: right;
+    margin-right: 8px;
+}
+.pageButton{
+    height: 81px;
+    line-height: 81px;
+    text-align: center;
+}
+.page-css{
+    width: 56px;
+    height: 32px;
+    background-color: #eeeeee;
+    border-radius: 2px;
+    border: 1px solid #c5c5c5;
+    font-family: "微软雅黑" , serif;
+    font-size: 12px;
+    color: #9d9d9d;
+    cursor: pointer;
+}
+.pages{
+    width: 33px;
+    height: 32px;
+    border: 1px solid #c5c5c5;
+    border-radius: 2px;
+    font-family: "微软雅黑" , serif;
+    font-size: 12px;
+    color: #9d9d9d;
+    cursor: pointer;
+}
+/*-------------------content-indent--------------------------*/
+#content-indent{
+    height: 100%;
+    width: 705px;
+    float: left;
+}
+#content-note{
+    height: 636px;
+    width: 705px;
+    float: left;
+    display: none;
+    background-color: white;
+}
+#content-record{
+    height: 636px;
+    width: 705px;
+    float: left;
+    display: none;
+    background-color: white;
+}
+/*-------------content1-----------------*/
+#content1{
+    position: relative;
+    width: 705px;
+    height: 395px;
+    float: left;
+    padding-top: 27px;
+}
+.button1{
+    float: left;
+    width: 178px;
+    padding: 12px 0 16px;
+    border: none;
+    background-color: #13598c;
+    border-radius: 6px;
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+    color: white;
+}
+.button2{
+    margin-top: 6px;
+    float: left;
+    width: 178px;
+    padding: 12px 0 16px;
+    border: none;
+    background-color: #DDDDDD;
+    border-radius: 6px;
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+    color: black;
+    margin-left: 1px;
+}
+#content1-1{
+    position: absolute;
+    background-color: white;
+    width: 703px;
+    height: 354px;
+    border: 1px solid #878787;
+    margin-top: 39px;
+    z-index: 3;
+}
+#name{
+    background-color: #13598c;
+    height: 38px;
+    width: 100%;
+    font-family: "微软雅黑" , serif;
+    font-size: 18px;
+    color: white;
+    line-height: 38px;
+    text-align: center;
+}
+.cont1-1-1{
+    float: left;
+    width: 178px;
+    height: 100%;
+}
+.cont1-p1{
+    float: left;
+    width: 186px;
+    height: 100%;
+}
+.cont1-p2{
+     float: left;
+     width: 100px;
+     height: 100%;
+ }
+.cont1-p3{
+    float: left;
+    width: 79px;
+    padding-top: 27px;
+    padding-left: 21px;
+}
+.wuPin{
+    width: 100%;
+    height: 78px;
+    border-top: 1px solid white;
+    line-height: 78px;
+    text-align: center;
+    background-color: #DDDDDD;
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+}
+.wuPin1{
+    width: 100%;
+    height: 78px;
+    border-top: 1px solid white;
+    line-height: 78px;
+    text-align: center;
+    background-color: #207ec4;
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+}
+.jian{
+    width: 18px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #696969;
+    float: left;
+}
+.number{
+    background-color: white;
+    text-align: center;
+    width: 25px;
+    height: 20px;
+    border: 0;
+    border-top: 1px solid #696969;
+    border-bottom: 1px solid #696969;
+    float: left;
+}
+#guo{
+    font-family: "微软雅黑" , serif;
+    font-size: 15px;
+    padding-left: 29px;
+    height: 34px;
+    line-height: 34px;
+    display: none;
+}
+.jia{
+    width: 18px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #696969;
+    float: left;
+}
+#zong{
+    padding-left: 360px;
+}
+.jie-p{
+    line-height: 34px;
+    height: 34px;
+    float: left;
+}
+#acount{
+    float: right;
+    margin-right: 65px;
+    background-color: #13598c;
+    color: white;
+    width: 110px;
+    height: 31px;
+    font-family: "微软雅黑" , serif;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+#content2{
+    margin-top: 16px;
+    width: 705px;
+    height: 198px;
+    float: left;
+}
+#con3-1{
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-family: "微软雅黑" , serif;
+    color: white;
+    font-size: 18px;
+}
+#con3-2{
+    padding: 12px 0 0 15px;
+    height: 144px;
+}
+#con3-2 p:hover{
+    background-image: url("../images/ke-tu2.png");
+    cursor: pointer;
+}
+.course{
+    margin-right: 15px;
+    background-image: url("../images/ke-tu1.jpg");
+    width: 157px;
+    height: 131px;
+    float: left;
+}
+/*--------------------------footer------------------------------*/
+#footer{
+    width: 100%;
+    height: 201px;
+}
+#footer1{
+    width: 60px;
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+    padding-top: 31px;
+    padding-right: 23px;
+    float: left;
+}
+.footer-zt{
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+#footer p{
+    line-height: 18px;
+    height: 18px;
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+}
+#footer2{
+    float: left;
+    width: 60px;
+    padding-top: 31px;
+    padding-right: 18px;
+}
+#footer3{
+    float: left;
+    width: 60px;
+    padding-top: 31px;
+}
+#footer4{
+    float: right;
+    text-align: center;
+    width: 146px;
+    padding-top: 72px;
+}
+
+
+

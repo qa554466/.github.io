@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>传一科技</title>
+</head>
+<link rel="stylesheet" href="css/shouye.css" type="text/css"/>
+<script src="js/shouye.js" ></script>
+<body>
+    <div id="bg">
+        <!--top回到顶部-->
+        <a href="#top"><img src="images/top.jpg" id="top1"/></a>
+        <a name="top"></a>
+        <!--移动广告-->
+        <div id="guanggao">
+            <img src="images/d1.jpg" class="left"/><img src="images/d2.jpg" class="right"/>
+            <img src="images/d3.png" class="left"/><img src="images/d4.png" class="right"/>
+            <img src="images/d5.png" class="left"/><img src="images/d6.png" class="right"/>
+            <img src="images/d7.png" class="left"/><img src="images/d8.png" class="right"/>
+            <img src="images/d9.png" class="left"/><img src="images/d10.png" class="right"/>
+            <img src="images/d11.png" />
+        </div>
+        <!--注册界面-->
+        <div id="moTai1">
+            <div id="enterface1">
+                <input type="image" src="images/guan.png" onclick="close2()" id="guan1"/> <!--关闭图片-->
+                <p class="en-ys1"><span>账号：</span><input type="text" placeholder="请输入账号" id="user2" class="kuan"/></p><!--账号-->
+                <p id="user3" class="en-ys1"></p>
+                <p class="en-ys1"><span>密码：</span><input type="password" placeholder="密码" id="pwd2" class="kuan"/></p>
+                <p id="pwd3" class="en-ys1"></p>
+                <p class="en-ys1"><span>密码：</span><input type="password" placeholder="再次确认密码" id="pwd4" class="kuan"/></p>
+                <p id="pwd5" class="en-ys1"></p>
+                <p class="en-ys1"><span>邮箱：</span><input type="text" placeholder="邮箱" id="you" class="kuan"/></p>
+                <p class="en-ys1"></p>
+                <p class="en-ys1"><input type="button" value="注册" id="deLu1"/></p>
+            </div>
+        </div>
+        <!--  登录界面  -->
+        <div id="moTai">
+            <div id="enterface">
+                <p id="deLu-bg">
+                    <input type="image" src="images/guan-x.png" onclick="close1()" id="guan"/>
+                    <span id="deLu-ys">登录</span>
+                </p><!--关闭图片-->
+                <p ><input type="text" placeholder="请输入账号" id="user"/></p><!--账号-->
+                <p class="en-ys" id="user1"></p>
+                <p ><input type="password" placeholder="请输入密码" id="pwd"/></p>
+                <p class="en-ys" id="pwd1"></p>
+                <p ><input type="button" value="登录" id="deLu"/></p>
+                <p id="moTai-p">
+                    <span id="no" class="shou">还没有帐号？</span>
+                    <span id="zhuce1" class="shou" onclick="zhu_lian()">立即注册</span>
+                </p>
+            </div>
+        </div>
+        <!--  登录界面结束  -->
+        <div id="nav">
+            <div class="safe_width" id="nav-position">
+                <div id="nav-1">
+                    <p id="nav-1-1"><a href="#">首页</a></p>
+                    <p class="nav-1-2"><a href="kechengzhongxin.html">课程</a></p>
+                    <p class="nav-1-2"><a href="xuexi.html">学习</a></p>
+                    <div id="nav-1-3" ><a href="#">客户端</a>
+                    <!--下拉菜单-->
+                        <div id="xiaLa">
+                            <p class="xia-zt">安卓客户端</p>
+                            <p class="xia-zt">IOS客户端</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="nav-2">
+                    <p id="nav-2-1">
+                       <input type="text" placeholder="请输入关键词查找" id="input1" class="v_middle_body"/>
+                       <input type="image" src="images/shouSuo.jpg" class="v_middle_body"/>
+                    </p>
+                    <p id="nav-2-2">
+                        <a id="login" onclick="log_in()">登录</a>
+                        <a id="zhuce" onclick="zhu()">注册</a>
+                    </p>
+                    <p id="username">
+                        <img src="images/user-tou.png" id="tou" class="v_middle_body"/>
+                        <span class="v_middle_body" id="name">你好：王晓明</span>
+                        <span id="exit" class="v_middle_body">退出</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="banner" onmouseover="xian()" onmouseout="yin()">
+            <div class="safe_width " id="ban">
+                <div id="blank"></div>
+                <!-- 换图片 -->
+                <div id="banner1">
+                    <img src="images/xiaoyu.png" id="xiaoyu1" onclick="xiaoyu()"/>
+                    <img src="images/dayu.png" id="dayu1" onclick="dayu()"/>
+                </div>
+                <!--圆点换图-->
+                <div id="yuan">
+                    <img src="images/yuan-gao.png"/>
+                    <img src="images/yuan.png"/>
+                    <img src="images/yuan.png"/>
+                    <img src="images/yuan.png"/>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div class="safe_width">
+                <div id="learnWhat">
+                    <h2 id="learnWhat1" class="biao">[我们该学什么？]</h2>
+                    <p id="learnWhat2">选择喜欢的技术方向</p>
+                    <div id="learnWhat2-1">
+                        <div id="learnWhat2-2-1"></div>
+                        <div id="learnWhat2-2-2">
+                            <div id="what-1">
+                                <img src="images/ban3.jpg" />
+                                <img src="images/ban4.jpg"/>
+                                <img src="images/ban5.jpg"/>
+                            </div>
+                            <div id="what-2">
+                                <img src="images/ban7.png"/>
+                                <img src="images/ban8.png"/>
+                                <img src="images/ban9.png"/>
+                            </div>
+                        </div>
+                        <div id="learnWhat2-2-3"></div>
+                    </div>
+                    <p class="con-zt-18" id="tujian">推荐课程</p>
+                    <div id="learnWhat3">
+                        <div class="what3-1"></div>
+                        <div class="what3-1"></div>
+                        <div class="what3-1"></div>
+                        <div class="what3-1"></div>
+                        <div class="what3-1" id="what3-2"></div>
+                    </div>
+                    <p id="chan"><a href="kechengzhongxin.html" class="con-zt-18" >查看更多课程</a></p>
+                </div>
+                <div id="learnHow">
+                    <h2 class="biao" id="learnHow1">[我该怎么学？]</h2>
+                    <div class="how1">
+                        <img src="images/c-1.jpg" class="float"/>
+                        <p class="how-p">
+                            <span class="how-zt1">项目实战驱动</span>
+                            <a href="#" class="how1-1">&nbsp;了解更多></a>
+                        </p>
+                        <p class="how-zt how-p">项目实战是公司培训的一大特色，也是卓跃课程中的精华，一套好的项目实战课程的核心就需要有一套优秀的项<br/>
+                            目管控体系相配套，卓跃学术团队由多个来自于以研发实力著称的知名嵌入式企业的项目管理人员，技术专家和<br/>
+                            一批有丰富项目实践教学，教学经验丰富的教师共同组成，因此卓跃的项目管控体系模型主要源自于多个知名嵌<br/>
+                            入式产品研发企业，是这些企业无数个优秀的嵌入式研发人员用多年项目开发管理经验总结出来的精华，是他们<br/>智慧的结晶。
+                        </p>
+                    </div>
+                    <div id="how2">
+                        <img src="images/020.jpg" id="tu1"/>
+                        <p class="how-p1">
+                            <a href="#" class="how1-1">&nbsp;了解更多></a>
+                            <span class="how-zt1">O2O+威客教学模式</span>
+                        </p>
+                        <p class=" how-zt2">
+                            学习+工作模式，也称“3+2+1”模式，即：“3”个层面：知识点学习、设计课训练、项目实战。学员进入设计<br/>
+                            室后进行设计课训练，考核通过后进入项目实战演练，针对不理解的知识点进行强化学习，力争循序渐进，保证<br/>
+                            完成作品。“2”种方式：采用线下强化加线上学习管理的方式，有为期2个月的强化训练，和线上知识学习、练<br/>
+                            习。“1”月带薪：通过3个层面学习强化后，学员将进入威客带薪项目实战阶段，在威客设计室接带薪项目，也<br/>
+                            可直接进入大型企业带薪实习。
+                        </p>
+                    </div>
+                    <div class="how1">
+                        <img src="images/020-1.jpg" class="float"/>
+                        <p class="how-p">
+                            <span class="how-zt1">创新工场</span>
+                            <a href="#" class="how1-1">&nbsp;了解更多></a>
+                        </p>
+                        <p class="how-zt how-p">卓跃在线创新工场项目致力于吸纳有自主创作激情的工作、团队、个人，以及包括创新思维创意项目的构思。</p>
+                    </div>
+                </div>
+                <div id="why">
+                    <h2 class="biao" id="why-h">[为什么选传一慕客？]</h2>
+                    <p class="con-zt-18">专业师资团队</p>
+                    <p class="why1-zt">21名全职教师  平均8年项目经验 面对面小班教学</p>
+                    <div id="why1">
+                        <div id="why2">
+                            <div id="shi1" >
+                                <img src="images/shi_01.jpg" onmouseover="bian(0)"/>
+                                <div class="mou-none">
+                                    <p class="shi-zt">
+                                        <span class="tan">陈某某</span>
+                                        金牌项目经理&nbsp;   4年软件开发项目经验
+                                    </p>
+                                    <p class="shi-zt1">13-15年：东京多语言系统机构-项目经理；<br/>
+                                        15年至今：传一科技-金牌讲师讲师<br/>
+                                        项目经验： <br/>航空订票系统；智能影院购票系统；KTV自助点歌系统。<br/>
+                                    </p>
+                                    <p class="shi-zt2">精通Java与C#编程；深入理解面向对象机制，精通HTML+CSS/JavaScript/JQuery等WEB前端开发技术；<br/>
+                                        对SQLserver，MySql等主流数据库的开发与维护也有着独特的见解。<br/>
+                                        熟练应用JSP/Servlet等后台组件开发各类WEB应用；熟练TOMCAT/JBOSS等平台。<br/>
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="shi2" >
+                                <img src="images/shi_02.png" onmouseover="bian(1)"/>
+                                <div class="mou-none">
+                                    <p class="shi-zt">
+                                        <span class="tan">罗某某</span>
+                                        金牌项目经理/高级讲师&nbsp;
+                                    </p>
+                                    <p class="shi-zt1">14-15年：福州传一科技软件研发中心-软件开发工程师；<br/>
+                                        15年至今：传一科技-金牌讲师<br/>
+                                        项目经验： <br/>泉州市职业鉴定无纸化考试平台；学问网Android学生端/师资端；
+                                        "开心学"平台-Android客户端和WEB平台。<br/>
+                                    </p>
+                                    <p class="shi-zt2">
+                                        精通Java编程语言/熟练Html css3 JavaScript jQuery等网页前端开发语言；精通
+                                        JSP/SERVLET等Java Web开发技术；精通Oracle10g和SQLite等数据库操作，熟悉Android OS系统体系结构、熟悉
+                                        Android平台UI设计；熟练掌握安卓系统服务等；对无线网络及多媒体应用开发、传
+                                        感器开发有深刻理解 熟悉libgdx游戏引擎开发。
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="shi3" >
+                                <img src="images/shi_03.png" onmouseover="bian(2)"/>
+                                <div class="mou-none">
+                                    <p class="shi-zt">
+                                        <span class="tan">李某某</span>
+                                        金牌项目经理/高级讲师&nbsp;
+                                    </p>
+                                    <p class="shi-zt1">曾任 08-10年：福建弘腾电子科技有限公司-项目经理 ；<br/>
+                                        11年至今：传一科技-金牌讲师项目管控中心主任<br/>
+                                    </p>
+                                    <p class="shi-zt2">精通上位机系统项目开发、组织管理；精通Unix/Linux/WINDOWS操作系统，精通Linux下<br/>
+                                        C/C++语言开发和JAVA技术平台开发，熟悉<br/>
+                                        Windows和Linux的各种应用编程接口和机制。深入<br/>
+                                        研究了单片机技术、ARM体系芯片级和嵌入式系统级<br/>
+                                        的开发应用、移植等等，特别是针对无线智能终端领<br/>
+                                        域。在手机设备上，对android和symbiam等手机操<br/>
+                                        作系统具备一定的应用开发经验，深入理解android体<br/>
+                                        系结构和工作原理
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="shi4" >
+                                <img src="images/shi_04.png" onmouseover="bian(3)"/>
+                                <div class="mou-none">
+                                    <p class="shi-zt">
+                                        <span class="tan">王某某</span>
+                                        学术总监&nbsp;   12年软件开发经验
+                                    </p>
+                                    <p class="shi-zt1">曾任 09-10年 三元达通迅 研发部经理  07年-09 鑫诺<br/>
+                                        通迅 研发部经理  04-07年:博洋教育学术总监 学术体<br/>
+                                        系创始人 99年-04年曾任宏智科技、上海兴力科技、 </p>
+                                    <p class="shi-zt2">精通上位机系统项目开发、组织管理；精通Unix/Linux/WINDOWS操作系统，精通Linux下<br/>
+                                        C/C++语言开发和JAVA技术平台开发，熟悉<br/>
+                                        Windows和Linux的各种应用编程接口和机制。深入<br/>
+                                        研究了单片机技术、ARM体系芯片级和嵌入式系统级<br/>
+                                        的开发应用、移植等等，特别是针对无线智能终端领<br/>
+                                        域。在手机设备上，对android和symbiam等手机操<br/>
+                                        作系统具备一定的应用开发经验，深入理解android体<br/>
+                                        系结构和工作原理
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="shi5">
+                                <img src="images/shi_05.png"  onmouseover="bian(4)"/>
+                                <div class="mou-none">
+                                    <p class="shi-zt">
+                                        <span class="tan">叶某某</span>
+                                        金牌项目经理/高级讲师&nbsp;
+                                    </p>
+                                    <p class="shi-zt1">曾任福建天创-开发工程师；福建易联众-资深开发工程师；<br/>
+                                        福建网龙-资深开发工程师；
+                                        传一科技-金牌讲师
+                                    </p>
+                                    <p class="shi-zt2">精通上位机系统项目开发、组织管理；精通Unix/Linux/WINDOWS操作系统，精通Linux下<br/>
+                                        C/C++语言开发和JAVA技术平台开发，熟悉<br/>
+                                        Windows和Linux的各种应用编程接口和机制。深入<br/>
+                                        研究了单片机技术、ARM体系芯片级和嵌入式系统级<br/>
+                                        的开发应用、移植等等，特别是针对无线智能终端领<br/>
+                                        域。在手机设备上，对android和symbiam等手机操<br/>
+                                        作系统具备一定的应用开发经验，深入理解android体<br/>
+                                        系结构和工作原理
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="shi6" >
+                                <img src="images/shi_06.png" onmouseover="bian(5)"/>
+                                <div class="mou-none">
+                                    <p class="shi-zt">
+                                        <span class="tan">谭某某</span>
+                                        学术总监&nbsp;   14年软件开发经验
+                                    </p>
+                                    <p class="shi-zt1">曾任 09-10年 三元达通迅 研发部经理  07年-09 鑫诺<br/>
+                                        通迅 研发部经理  04-07年:博洋教育学术总监 学术体<br/>
+                                        系创始人 99年-04年曾任宏智科技、上海兴力科技、 </p>
+                                    <p class="shi-zt2">精通上位机系统项目开发、组织管理；精通Unix/Linux/WINDOWS操作系统，精通Linux下<br/>
+                                        C/C++语言开发和JAVA技术平台开发，熟悉<br/>
+                                        Windows和Linux的各种应用编程接口和机制。深入<br/>
+                                        研究了单片机技术、ARM体系芯片级和嵌入式系统级<br/>
+                                        的开发应用、移植等等，特别是针对无线智能终端领<br/>
+                                        域。在手机设备上，对android和symbiam等手机操<br/>
+                                        作系统具备一定的应用开发经验，深入理解android体<br/>
+                                        系结构和工作原理
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="shi7" >
+                                <img src="images/shi_07.png" onmouseover="bian(6)"/>
+                                <div class="mou-none">
+                                    <p class="shi-zt">
+                                        <span class="tan">谭某某</span>
+                                        学术总监&nbsp;   14年软件开发经验
+                                    </p>
+                                    <p class="shi-zt1">曾任 09-10年 三元达通迅 研发部经理  07年-09 鑫诺<br/>
+                                        通迅 研发部经理  04-07年:博洋教育学术总监 学术体<br/>
+                                        系创始人 99年-04年曾任宏智科技、上海兴力科技、 </p>
+                                    <p class="shi-zt2">精通上位机系统项目开发、组织管理；精通Unix/Linux/WINDOWS操作系统，精通Linux下<br/>
+                                        C/C++语言开发和JAVA技术平台开发，熟悉<br/>
+                                        Windows和Linux的各种应用编程接口和机制。深入<br/>
+                                        研究了单片机技术、ARM体系芯片级和嵌入式系统级<br/>
+                                        的开发应用、移植等等，特别是针对无线智能终端领<br/>
+                                        域。在手机设备上，对android和symbiam等手机操<br/>
+                                        作系统具备一定的应用开发经验，深入理解android体<br/>
+                                        系结构和工作原理
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="shi8">
+                                <img src="images/shi_08.png"  onmouseover="bian(7)"/>
+                                <div class="mou">
+                                    <p class="shi-zt">
+                                        <span class="tan">谭某某</span>
+                                        学术总监&nbsp;   14年软件开发经验
+                                    </p>
+                                    <p class="shi-zt1">曾任 09-10年 三元达通迅 研发部经理  07年-09 鑫诺<br/>
+                                        通迅 研发部经理  04-07年:博洋教育学术总监 学术体<br/>
+                                        系创始人 99年-04年曾任宏智科技、上海兴力科技、 </p>
+                                    <p class="shi-zt2">精通上位机系统项目开发、组织管理；精通Unix/Linux/WINDOWS操作系统，精通Linux下<br/>
+                                        C/C++语言开发和JAVA技术平台开发，熟悉<br/>
+                                        Windows和Linux的各种应用编程接口和机制。深入<br/>
+                                        研究了单片机技术、ARM体系芯片级和嵌入式系统级<br/>
+                                        的开发应用、移植等等，特别是针对无线智能终端领<br/>
+                                        域。在手机设备上，对android和symbiam等手机操<br/>
+                                        作系统具备一定的应用开发经验，深入理解android体<br/>
+                                        系结构和工作原理
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="zuoPin">
+                    <p id="zuo1" class="con-zt-18">学员作品</p>
+                    <p class="why1-zt">专业的课程，严格的企业标准项目考核，一切以实战为目标</p>
+                    <div id="zuoPin1">
+                        <div id="zuoPin2">
+                            <div class="zuoPin1-1" onmouseover="pause()" onmouseout="start()">
+                                <img src="images/xue1.jpg" class="pin1"/>
+                                <p class="pin2">阶段名称：基础C语言强化</p>
+                                <p class="pin2">项目名称：餐馆点餐系统</p>
+                            </div>
+                            <div class="zuoPin1-1" onmouseover="pause()" onmouseout="start()" >
+                                <img src="images/xue2.jpg" class="pin1"/>
+                                <p class="pin2">阶段名称：嵌入式系统移植</p>
+                                <p class="pin2">底层驱动开发</p>
+                                <p class="pin2">项目名称：GPS车载导航</p>
+                            </div>
+                            <div class="zuoPin1-1" onmouseover="pause()" onmouseout="start()">
+                                <img src="images/xue3.jpg" class="pin1"/>
+                                <p class="pin2">阶段名称：JacaSE网络编程</p>
+                                <p class="pin2">项目名称：网络版坦克大战</p>
+                            </div>
+                            <div class="zuoPin1-1" onmouseover="pause()" onmouseout="start()">
+                                <img src="images/xue4.jpg" class="pin1"/>
+                                <p class="pin2">阶段名称：JacaSE网络编程</p>
+                                <p class="pin2">项目名称：网络版坦克大战</p>
+                            </div>
+                            <div class="zuoPin1-1" onmouseover="pause()" onmouseout="start()">
+                                <img src="images/xue5.jpg" class="pin1"/>
+                                <p class="pin2">阶段名称：JacaSE网络编程</p>
+                                <p class="pin2">项目名称：网络版坦克大战</p>
+                            </div>
+                        </div>
+                        <div id="zuoPin3">
+                            <div class="zuoPin1-1" onmouseover="pause()" onmouseout="start()">
+                                <img src="images/xue1.jpg" class="pin1"/>
+                                <p class="pin2">阶段名称：基础C语言强化</p>
+                                <p class="pin2">项目名称：餐馆点餐系统</p>
+                            </div>
+                            <div class="zuoPin1-1" onmouseover="pause()" onmouseout="start()" >
+                                <img src="images/xue2.jpg" class="pin1"/>
+                                <p class="pin2">阶段名称：嵌入式系统移植</p>
+                                <p class="pin2">底层驱动开发</p>
+                                <p class="pin2">项目名称：GPS车载导航</p>
+                            </div>
+                            <div class="zuoPin1-1" onmouseover="pause()" onmouseout="start()">
+                                <img src="images/xue3.jpg" class="pin1"/>
+                                <p class="pin2">阶段名称：JacaSE网络编程</p>
+                                <p class="pin2">项目名称：网络版坦克大战</p>
+                            </div>
+                            <div class="zuoPin1-1" onmouseover="pause()" onmouseout="start()">
+                                <img src="images/xue4.jpg" class="pin1"/>
+                                <p class="pin2">阶段名称：JacaSE网络编程</p>
+                                <p class="pin2">项目名称：网络版坦克大战</p>
+                            </div>
+                            <div class="zuoPin1-1" onmouseover="pause()" onmouseout="start()">
+                                <img src="images/xue5.jpg" class="pin1"/>
+                                <p class="pin2">阶段名称：JacaSE网络编程</p>
+                                <p class="pin2">项目名称：网络版坦克大战</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="company">
+                    <p class="con-zt-18" id="comp">企业合作项目</p>
+                    <p class="why1-zt">创新工场，对接企业项目，为企业订制人才</p>
+                    <div id="company1">
+                        <div class="company2">
+                            <p><img src="images/qi1.jpg"/></p>
+                            <p class="company-zt">帝王三国</p>
+                        </div>
+                        <div class="company2">
+                            <p><img src="images/qi2.jpg"/></p>
+                            <p class="company-zt">幻想无双</p>
+                        </div>
+                        <div class="company2">
+                            <p><img src="images/qi3.jpg"/></p>
+                            <p class="company-zt">帝王三国</p>
+                        </div>
+                        <div class="company2">
+                            <p><img src="images/qi4.jpg"/></p>
+                            <p class="company-zt">热血帝王</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="xueba">
+                    <h2 class="biao" id="xueba-h">[我能学会吗？]</h2>
+                    <p class="con-zt-18">心得体会</p>
+                    <p class="xueba-zt">让学霸用亲身经历告诉你，学霸是怎样炼成的</p>
+                    <div id="xueba1">
+                        <div class="xue1">
+                            <img src="images/tu1.jpg" class="float"/>
+                            <p class="marg"><img src="images/tu2.jpg" class="float"/></p>
+                            <p><img src="images/tu3.jpg" class="float"/></p>
+                            <p class="marg"><img src="images/tu4.jpg" class="float"/></p>
+                            <p><img src="images/tu5.jpg" class="float"/></p>
+                        </div>
+                        <div class="xue1">
+                            <p class="marg"><img src="images/tu6.png" class="float"/></p>
+                            <p><img src="images/tu7.png" class="float"/></p>
+                            <p class="marg"><img src="images/tu8.png" class="float"/></p>
+                            <p><img src="images/tu9.jpg" class="float"/></p>
+                            <img src="images/tu10.jpg" class="float"/>
+                        </div>
+                        <div class="xue1">
+                            <img src="images/tu11.jpg" class="float"/>
+                            <p class="marg"><img src="images/tu12.jpg" class="float"/></p>
+                            <p><img src="images/tu13.jpg" class="float"/></p>
+                            <p class="marg"><img src="images/tu14.jpg" class="float"/></p>
+                            <p><img src="images/tu15.jpg" class="float"/></p>
+                        </div>
+                        <div class="xue1">
+                            <p class="marg"><img src="images/tu16.jpg" class="float"/></p>
+                            <p><img src="images/tu17.jpg" class="float"/></p>
+                            <p class="marg"><img src="images/tu18.jpg" class="float"/></p>
+                            <p><img src="images/tu19.jpg" class="float"/></p>
+                            <img src="images/tu20.jpg" class="float"/>
+                        </div>
+                        <div class="xue1">
+                            <img src="images/tu21.jpg" class="float"/>
+                            <p class="marg"><img src="images/tu22.jpg" class="float"/></p>
+                            <p><img src="images/tu23.jpg" class="float"/></p>
+                            <p class="marg"><img src="images/tu24.jpg" class="float"/></p>
+                            <p ><img src="images/tu25.jpg" class="float"/></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="job">
+                    <h2 class="biao" id="job1">[就业怎么样？]</h2>
+                    <div id="job2"></div>
+                    <div id="job3">
+                        <img src="images/company2.jpg" id="compan1" class="float"/>
+                        <img src="images/w1.jpg" class="float"/>
+                        <img src="images/w2_02.jpg" class="float"/>
+                        <img src="images/w3.jpg" class="float"/>
+                        <img src="images/w4.jpg" class="float"/>
+                        <img src="images/w5.jpg" class="float"/>
+                        <img src="images/w6.jpg" class="float"/>
+                        <img src="images/w7.jpg" class="float"/>
+                        <img src="images/w-jia.png" id="jia" class="float"/>
+                    </div>
+                </div>
+                <div id="cuogou">
+                    <h3 class="biao" id="cuogou1">学IT？高薪就业？一定一定不要错过传一MOOC</h3>
+                    <p id="cuogou2">已有6,352,458人在传一MOOC上学习</p>
+                    <p id="an"><a href="#"><img src="images/nide.png" /></a></p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="safe_width">
+                <div id="footer1">
+                    <p><a href="#" class="footer-zt">关于我们</a></p>
+                    <p ></p>
+                    <p ><a href="#" class="footer-zt">关于我们</a></p>
+                    <p><a href="#" class="footer-zt">常见问题</a> </p>
+                    <p><a href="#" class="footer-zt"> 法律条款</a></p>
+                </div>
+                <div id="footer2">
+                    <p></p>
+                    <p></p>
+                    <p><a href="#" class="footer-zt">联系我们</a></p>
+                    <p><a href="#" class="footer-zt">意见反馈</a></p>
+                </div>
+                <div id="footer3">
+                    <p>关注我们</p>
+                </div>
+                <div id="footer4">
+                    <p> Copyright 2014-2016 </p>
+                    <p>传一学院</p>
+                    <p>All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

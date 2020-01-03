@@ -1,0 +1,291 @@
+/*  初始化化 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  安全宽度  */
+.safe_width{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+/*   串的头部和身体   */
+.v_middle_head{
+    width: 1px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.v_middle_body{
+    display: inline-block;
+    vertical-align: middle;
+}
+/*----  网页背景  ---*/
+#bg{
+    width: 100%;
+    height: 1474px;
+    background-image: url("../images/kecheng-bg1.jpg");
+    background-position: center;
+}
+/*--------------------------nav------------------------------*/
+
+#nav{
+    width: 100%;
+    height:72px ;
+}
+#nav-1{
+    margin-left: 189px;
+}
+#nav-1-1{
+    padding: 25px 25px 20px;
+    float: left;
+}
+.nav-1-2{
+    padding: 25px 21px 20px;
+    float: left;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+#nav-ke{
+     background-color:#104974 ;
+ }
+#nav-1-3{
+    padding: 25px 25px 20px;
+    float: left;
+}
+#nav-1 a{
+    font-size: 21px;
+    font-family: "微软雅黑" , serif;
+    color: white;
+    text-decoration: none;
+}
+#nav-1 p:hover{
+    background-color:#104974 ;
+}
+#nav-2{
+    float: right;
+    padding-top: 23px;
+}
+#input1{
+    width:172px;
+    height: 30px;
+    border: 0;
+}
+#nav-2-1{
+    width: 210px;
+    height: 30px;
+    background-color:#FFFFFF ;
+    display: inline-block;
+}
+#nav-2-2{
+    display: inline-block;
+}
+#nav-2-2>a{
+    color: white;
+    font-family: "微软雅黑" , serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+#login{
+    margin-right: 14px;
+    margin-left: 34px;
+}
+#zhuce{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+/*--------------------------content------------------------------*/
+#content{
+    width: 100%;
+    height: 1201px;
+}
+#content1{
+    height: 337px;
+    width: 100%;
+}
+#con1-1{
+    padding:42px 15px 14px ;
+    font-family: "微软雅黑" , serif;
+    color: white;
+    font-size: 18px;
+}
+.con1-1-1{
+    padding-left: 25px;
+    padding-top: 18px;
+    padding-bottom: 16px;
+    float: left;
+    width: 975px;
+}
+.con1-p{
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+    height: 23px;
+    line-height: 23px;
+    color: #868788;
+    width: 45px;
+    float: left;
+}
+.con1-p1{
+     text-align: center;
+     font-family: "微软雅黑" , serif;
+     font-size: 14px;
+     height: 23px;
+     line-height: 23px;
+     width: 84px;
+     float: left;
+ }
+.con1-span{
+    font-size: 12px;
+    font-family: "微软雅黑" , serif;
+}
+
+#content1 span{
+padding: 2px 7px;
+    cursor: pointer;
+}
+/*#content1 span:hover{
+    background-color: black;
+    color: white;
+}*/
+#con1-1-2{
+    padding: 11px 0 10px 25px;
+    float: left;
+}
+#classify{
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+    height: 108px;
+    line-height: 36px;
+    color: #868788;
+    width: 45px;
+    float: left;
+}
+.con1-p2{
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+    width: 84px;
+    float: left;
+}
+.all-14zt{
+    font-size: 14px;
+    font-family: "微软雅黑" , serif;
+    background-color: black;
+    color: white;
+}
+#content2{
+    height: 603px;
+    width: 100%;
+    /*background-color: #104974;*/
+}
+#content2-1{
+    padding: 28px 0 37px 32px;
+    width: 968px;
+    height: 467px;
+}
+.course{
+    margin-right: 36px;
+    margin-bottom: 37px;
+    background-image: url("../images/ke-tu1.jpg");
+    width: 157px;
+    height: 131px;
+    float: left;
+}
+#content2-1 p:hover{
+    background-image: url("../images/ke-tu2.png");
+    cursor: pointer;
+}
+#page{
+    text-align: center;
+}
+.button-ys1{
+    width: 54px;
+    height: 31px;
+    background-color: #eeeeee;
+    border-radius: 2px;
+    border: 1px solid #c5c5c5;
+    font-family: "微软雅黑" , serif;
+    font-size: 12px;
+    color: #9d9d9d;
+    cursor: pointer;
+}
+.button-ys2{
+    width: 31px;
+    height: 31px;
+    background-color: #eeeeee;
+    border-radius: 2px;
+    border: 1px solid #c5c5c5;
+    font-family: "微软雅黑" , serif;
+    font-size: 12px;
+    color: #9d9d9d;
+    cursor: pointer;
+}
+#content3{
+    height: 261px;
+    width: 100%;
+}
+#con3-1{
+    height: 55px;
+    line-height: 55px;
+    padding:0 20px 0 14px;
+    font-family: "微软雅黑" , serif;
+    color: white;
+    font-size: 18px;
+}
+#more{
+    float: right;
+    text-decoration: none;
+    font-family: "微软雅黑" , serif;
+    color: white;
+    font-size: 18px;
+}
+#con3-2{
+    padding: 38px 0 0 32px;
+    height: 168px;
+}
+#con3-2 p:hover{
+    background-image: url("../images/ke-tu2.png");
+    cursor: pointer;
+}
+/*--------------------------footer------------------------------*/
+#footer{
+    width: 100%;
+    height: 201px;
+}
+#footer1{
+    width: 60px;
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+    padding-top: 31px;
+    padding-right: 23px;
+    float: left;
+}
+.footer-zt{
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+#footer p{
+    line-height: 18px;
+    height: 18px;
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+}
+#footer2{
+    float: left;
+    width: 60px;
+    padding-top: 31px;
+    padding-right: 18px;
+}
+#footer3{
+    float: left;
+    width: 60px;
+    padding-top: 31px;
+}
+#footer4{
+    float: right;
+    text-align: center;
+    width: 146px;
+    padding-top: 72px;
+}

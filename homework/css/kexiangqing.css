@@ -1,0 +1,341 @@
+/*  初始化化 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  安全宽度  */
+.safe_width{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+/*   串的头部和身体   */
+.v_middle_head{
+    width: 1px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.v_middle_body{
+    display: inline-block;
+    vertical-align: middle;
+}
+/*----  网页背景  ---*/
+#bg{
+    width: 100%;
+    height: 1976px;
+    background-image: url("../images/kexiang-bg1.jpg");
+    background-position: center;
+}
+/*--------------------------nav------------------------------*/
+#nav{
+    width: 100%;
+    height:72px ;
+}
+#nav-1{
+    margin-left: 189px;
+}
+#nav-1-1{
+    padding: 25px 25px 20px;
+    float: left;
+}
+.nav-1-2{
+    padding: 25px 21px 20px;
+    float: left;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+#nav-ke{
+    background-color:#104974 ;
+}
+#nav-1-3{
+    padding: 25px 25px 20px;
+    float: left;
+}
+#nav-1 a{
+    font-size: 21px;
+    font-family: "微软雅黑" , serif;
+    color: white;
+    text-decoration: none;
+}
+#nav-1 p:hover{
+    background-color:#104974 ;
+}
+#nav-2{
+    float: right;
+    padding-top: 23px;
+}
+#input1{
+    width:172px;
+    height: 30px;
+    border: 0;
+}
+#nav-2-1{
+    width: 210px;
+    height: 30px;
+    background-color:#FFFFFF ;
+    display: inline-block;
+}
+#nav-2-2{
+    display: inline-block;
+}
+#nav-2-2>a{
+    color: white;
+    font-family: "微软雅黑" , serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+#login{
+    margin-right: 14px;
+    margin-left: 34px;
+}
+#zhuce{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+/*--------------------------content------------------------------*/
+#content{
+    width: 100%;
+    height: 1703px;
+}
+/*----------content1--(面包屑导航)-------------*/
+#content1{
+    width: 100%;
+    height: 350px;
+}
+#breadcrumb{
+    padding-top: 36px;
+    padding-left: 16px;
+    line-height: 55px;
+    height: 55px;
+    color: white;
+    font-family: "微软雅黑" , serif;
+    font-size: 18px;
+}
+#user{
+    width: 475px;
+    height: 259px;
+    padding-left: 26px;
+    float: left;
+}
+#courseName{
+    font-size: 28px;
+    font-family: "微软雅黑" , serif;
+    line-height: 83px;
+    height: 83px;
+}
+#remind{
+    font-family: "微软雅黑" , serif;
+    font-size: 18px;
+}
+#head{
+    height: 83px;
+    line-height: 83px;
+}
+#condition{
+    margin-bottom: 21px;
+    height: 47px;
+    line-height: 47px;
+}
+.interval{
+    padding-right: 46px;
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+}
+#study{
+    float: left;
+    width: 499px;
+    height: 69px;
+    margin-top: 190px;
+}
+.study-zt{
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+#learn{
+    font-family: "微软雅黑" , serif;
+    font-size: 24px;
+    height: 47px;
+    width: 197px;
+    color: white;
+    background-color: #13598c;
+    border: none;
+    border-radius: 6px;
+
+}
+#collect{
+    margin-top: 12px;
+    float: right;
+    height: 20px;
+    padding-right: 2px;
+}
+/*----------content2---------------*/
+#content2{
+    width: 100%;
+    height:1092px ;
+    position: relative;
+}
+.button1{
+    float: left;
+    width: 234px;
+    border-radius: 6px;
+    color: white;
+    background-color: #13598C;
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+    padding: 10px 0 16px;
+    border: 1px solid black;
+}
+.button2{
+    margin-top: 6px;
+    float: left;
+    width: 235px;
+    border: 1px solid #404040;
+    border-radius: 6px;
+    color: #939393;
+    background-color: #DDDDDD;
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+    padding: 10px 0 16px;
+}
+#content2-1{
+    border: 1px solid #b1b1b1;
+    position: absolute;
+    width: 702px ;
+    height: 1022px;
+    top: 35px;
+    background-color: white;
+}
+#con2-1-1{
+    font-family: "微软雅黑" , serif;
+    font-size: 12px;
+    padding-left: 22px;
+    padding-top: 17px;
+}
+#con2-1-2{
+    font-family: "微软雅黑" , serif;
+    font-size: 12px;
+    padding-left: 22px;
+    padding-top: 5px;
+}
+.con2-1-biao{
+    font-family: "微软雅黑" , serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+#jie{
+    padding-left: 27px;
+    font-family: "微软雅黑" , serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.con-interval{
+    padding-left: 83px;
+}
+#con-tu{
+    padding: 16px 0 18px 23px;
+}
+
+#student{
+    margin-left: 8px;
+    float: left;
+    border: 1px solid #b1b1b1;
+    width: 286px;
+    height: 281px;
+}
+#xueBa{
+    float: right;
+    margin-top: 27px;
+    width: 286px;
+    height: 433px;
+    border: 1px solid #b1b1b1;
+}
+.student1{
+    font-family: "微软雅黑" , serif;
+    font-size: 16px;
+    color: white;
+    line-height: 43px;
+    height: 43px;
+    text-align: center;
+    background-color: #246CA6;
+}
+.student-interval{
+    padding: 16px 19px 0 18px;
+    float: left;
+}
+/*----------content3---------------*/
+#content3{
+    width: 100%;
+    height: 261px;
+}
+#con3-1{
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-family: "微软雅黑" , serif;
+    color: white;
+    font-size: 18px;
+}
+#con3-2{
+    padding: 38px 0 0 32px;
+    height: 168px;
+}
+#con3-2 p:hover{
+    background-image: url("../images/ke-tu2.png");
+    cursor: pointer;
+}
+.course{
+    margin-right: 36px;
+    margin-bottom: 37px;
+    background-image: url("../images/ke-tu1.jpg");
+    width: 157px;
+    height: 131px;
+    float: left;
+}
+/*--------------------------footer-----------------------------*/
+#footer{
+    width: 100%;
+    height: 201px;
+}
+#footer1{
+    width: 60px;
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+    padding-top: 31px;
+    padding-right: 23px;
+    float: left;
+}
+.footer-zt{
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+#footer p{
+    line-height: 18px;
+    height: 18px;
+    font-family: "微软雅黑" , serif;
+    font-size: 14px;
+}
+#footer2{
+    float: left;
+    width: 60px;
+    padding-top: 31px;
+    padding-right: 18px;
+}
+#footer3{
+    float: left;
+    width: 60px;
+    padding-top: 31px;
+}
+#footer4{
+    float: right;
+    text-align: center;
+    width: 146px;
+    padding-top: 72px;
+}
+
+
